@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imperials.worldofpets.Labrador">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/lab"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvboxer"
+                android:onClick="boxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Labrador"
+                android:textStyle="italic"
+                android:textColor="@color/colorEntered"
+                android:textSize="35sp"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="The Labrador Retriever was bred to be both a friendly companion and a useful working dog breed. Historically, he earned his keep as a fisherman’s helper: hauling nets, fetching ropes, and retrieving fish from the chilly North Atlantic. Today’s Labrador Retriever is as good-natured and hard working as his ancestors, and he’s America’s most popular breed. These days the Lab works as a retriever for hunters, assistance dog to the handicapped, show competitor, and search and rescue dog, among other canine jobs.
+
+ "
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Lifespan:   10 to 12 years "
+                android:textColor="@color/colorBlue"
+
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="29dp"
+                android:text="Size:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" Males stand 22.5 to 24.5 inches, and weigh 65 to 80 pounds. Females stand 21.5 to 23.5 inches, and weigh 55 to 70 pounds.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Health:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Cold Tail: Cold tail is a benign, though painful condition common to Labs and other retrievers. Also caused limber tail, it caused the dog's tail to go limp.\n
+Ear Infections: The Lab's love of water, combined with his drop ear make him prone to ear infections. Weekly checking and cleaning if necessary helps prevent infection.\n
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Care:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="The lovable Lab needs to be around his family, and is definitely not a backyard dog. If he's left alone for too long, he'll probably tarnish his saintly reputation: A lonely, bored Lab is apt to dig, chew, or find other destructive outlets for his energy.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Children and other pets:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" The Labrador Retriever not only loves kids, he enjoys the commotion they bring with them. He'll happily attend a child's birthday party, and even willingly wear a party hat. Like all dogs, however, he needs to be trained how to act around kids — and kids need to be taught how to act around the dog.
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

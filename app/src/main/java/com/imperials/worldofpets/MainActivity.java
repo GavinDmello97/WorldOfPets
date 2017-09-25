@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void dogpage(View v)
     {
-        Toast.makeText(MainActivity.this,"Your are  being redirected to your Dog page",Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this,"We are redirecting you to the dog section for selection",Toast.LENGTH_LONG).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -63,12 +63,12 @@ public class MainActivity extends AppCompatActivity {
                 Intent i=new Intent(MainActivity.this,Dogpage.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 2000);
     }
 
     public void catpage(View v)
     {
-        Toast.makeText(MainActivity.this,"Your are  being redirected to your Cat page",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"We are redirecting you to the cat section for selection",Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -76,25 +76,25 @@ public class MainActivity extends AppCompatActivity {
                 Intent i=new Intent(MainActivity.this,Catpage.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 2000);
     }
 
     public void birdpage(View v)
     {
-        Toast.makeText(MainActivity.this,"Your are being redirected to your Bird page",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"We are redirecting you to the bird section for selection",Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
 
-                Intent i=new Intent(MainActivity.this,Birdpage.class);
+                Intent i=new Intent(MainActivity.this, Birdpage.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 2000);
     }
 
     public void fishpage(View v)
     {
-        Toast.makeText(MainActivity.this,"Your are  being redirected to your Fish page",Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this,"We are redirecting you to the fish section for selection",Toast.LENGTH_SHORT).show();
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
                 Intent i=new Intent(MainActivity.this,Fishpage.class);
                 startActivity(i);
             }
-        }, 3000);
+        }, 2000);
     }
 
 

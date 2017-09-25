@@ -9,24 +9,215 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
 
             <LinearLayout
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp">
+
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:orientation="vertical"></LinearLayout>
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/ibboxer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:onClick="boxer"
+                        app:srcCompat="@drawable/boxer_wild" />
+
+                    <TextView
+                        android:id="@+id/tvboxer"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:onClick="boxer"
+                        android:text="Radent       Boxer"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <ImageButton
+                        android:id="@+id/ibgermanshepard"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:onClick="germanshepard"
+                        app:srcCompat="@drawable/german" />
+
+                    <TextView
+                        android:id="@+id/tvgermanshepard"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:onClick="germanshepard"
+                        android:text="German Shepherd"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
             </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp"
+                >
+
+                    <ImageButton
+                        android:id="@+id/ibgreatdane"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:onClick="greatdane"
+                        app:srcCompat="@drawable/dane" />
+
+                    <TextView
+                        android:id="@+id/tvgreatdane"
+                        android:layout_width="152dp"
+                        android:onClick="greatdane"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Great Dane"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/iblabrador"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/lab"
+                        android:onClick="labrador"
+                        android:background="@color/colorAccent"/>
+
+                    <TextView
+                        android:id="@+id/tvlabrador"
+                        android:layout_width="152dp"
+                        android:onClick="labrador"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Labrador"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginLeft="15dp">
+
+                <LinearLayout
+                    android:layout_width="154dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/ibsyberianhusky"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:onClick="syberianhusky"
+                        app:srcCompat="@drawable/husky" />
+
+                    <TextView
+                        android:id="@+id/tvsyberianhuskey"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:onClick="syberianhusky"
+                        android:text="Syberian Huskey"
+                        android:textSize="25sp" />
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp">
+
+                    <ImageButton
+                        android:id="@+id/ibgoldenretriever"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorAccent"
+                        android:onClick="goldenretriever"
+                        app:srcCompat="@drawable/gold" />
+
+                    <TextView
+                        android:id="@+id/tvgoldenretriever"
+                        android:layout_width="152dp"
+                        android:layout_height="wrap_content"
+                        android:onClick="goldenretriever"
+                        android:gravity="center"
+                        android:text="Golden Retriever"
+                        android:textSize="25sp"/>
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
         </LinearLayout>
     </ScrollView>
 

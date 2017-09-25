@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imperials.worldofpets.Syberianhusky">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/husky"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvboxer"
+                android:onClick="boxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Syberian Husky"
+                android:textStyle="italic"
+                android:textColor="@color/colorEntered"
+                android:textSize="35sp"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="The Siberian Husky is a beautiful dog breed with a thick coat that comes in a multitude of colors and markings. Their blue or multi-colored eyes and striking facial masks only add to the appeal of this breed, which originated in Siberia. It is easy to see why many are drawn to the Siberian’s wolf-like looks, but be aware that this athletic, intelligent dog can be independent and challenging for first-time dog owners.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Lifespan:   12 to 15 years "
+                android:textColor="@color/colorBlue"
+
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="29dp"
+                android:text="Size:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" An average male stands between 21 and 23.5 inches high while the female averages 20 to 22 inches. The male weighs between 45 and 60 pounds and the female 35 to 50 pounds.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Health:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Cataracts: A cataract is an opacity on the lens of the eye that causes difficulty in seeing. The eye(s) of the dog will have a cloudy appearance. Cataracts usually occur in old age and sometimes can be surgically removed to improve the dog's vision. \n
+                Corneal Dystrophy: This condition affects the cornea or outer transparent portion of the eyeball. It is an opacity that is caused by a collection of lipids in the cornea.\n
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Care:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Siberian Huskies need to be exercised 30 to 60 minutes daily to keep them from becoming bored. They make excellent jogging companions, but should not be exercised in hot weather. Surprisingly, they need only a small (but secure) backyard to expend their energy. Bottom line: Siberian Huskies need to be working to stay happy. Usually just maintaining your
+own active life through hiking and other outdoor sports will keep you Siberian Husky healthy, happy and out of trouble. \n
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Children and other pets:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" Huskies make great pets for households with children. They can be very tolerant of children, but like all other dogs, should be supervised when around young children."
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

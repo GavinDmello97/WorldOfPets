@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imperials.worldofpets.Greatdane">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/dane"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvboxer"
+                android:onClick="boxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Great Dane"
+                android:textStyle="italic"
+                android:textColor="@color/colorEntered"
+                android:textSize="35sp"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="A Great Dane is truly a great dog breed — large and noble, commonly referred to as a gentle giant or as the “Apollo of dogs.” Apollo is the Greek god of the sun, the brightest fixture in the sky. The Great Dane certainly holds stature in the dog world; but though he looks terribly imposing, in reality he’s one of the best-natured dogs around. For all of his size, a Great Dane is a sweet, affectionate pet. He loves to play and is gentle with children.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Lifespan:   10 to 13 years "
+                android:textColor="@color/colorBlue"
+
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="29dp"
+                android:text="Size:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Male Great Danes are 30 to 34 inches tall and weigh 120 to 200 pounds. Females are 28 to 32 inches tall and weigh 100 to 130 pounds.
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Health:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Development Issues: Growing problems can develop in puppies and young adults. These are sometimes associated with an improper diet — often a diet too high in protein, calcium, or supplements.\n
+Hip Dysplasia: This is an inherited condition in which the thighbone doesn't fit snugly into the hip joint. Some dogs show pain and lameness on one or both rear legs, but others don't display outward signs of discomfort.\n
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Care:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" Despite his giant size, a Great Dane is mellow enough to be a good housedog, though he's not well suited to a tiny apartment because he'll knock into everything.
+
+He can get cold in the winter, so he shouldn't be left outside in colder climates — but then no dog should. In fact, he would enjoy having a sweater or fleece coat to keep him toasty warm when you go for a walk in a winter climate\n
+"
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Children and other pets:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=" Great Dane loves children and is gentle with them, especially when raised with them from puppyhood. Keep in mind he doesn't have any idea how big he is compared to a small child, and so can accidentally knock them over quite easily.
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

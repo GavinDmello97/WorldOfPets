@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imperials.worldofpets.Boxer">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/boxer_wild"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/tvboxer"
+                android:onClick="boxy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Boxer"
+                android:textStyle="italic"
+                android:textColor="@color/colorEntered"
+                android:textSize="35sp"/>
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Description:"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Boxers were originally bred to be medium-size guard dogs. Today, although they are a part of the AKC’s Working Group, they mostly find homes as loving family companions. "
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Lifespan:   10 to 12 years "
+                android:textColor="@color/colorBlue"
+
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="29dp"
+                android:text="Size:"
+                android:textColor="@color/colorBlue"
+                 android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Males typically stand 22.5 to 25 inches tall at the shoulder and weigh about 70 pounds. Females typically stand 21 to 23.5 inches at the shoulder and weigh about 60 pounds."
+                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Health:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text=":Cancer. Boxers are especially prone to the developing mast cell tumors, lymphoma, and brain tumors. White Boxers and Boxers with excessive white markings can be sunburned and may even develop skin cancer. If your Boxer is light-colored, apply sunscreen on his ears, nose, and coat when he goes outdoors. "
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Care:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="Boxers are housedogs. Their short noses and short coats make them unsuited to living outdoors, although they'll enjoy having a fenced yard to play in. Boxers love to play. To keep their muscles toned and satisfy their need for exercise, plan on playing with them or walking them at least twice a day for half an hour. Play fetch, take him for long walks, or get him involved in dog sports such as agility or flyball. Giving your Boxer plenty of daily exercise is the best way to ensure good behavior. A tired Boxer is a good Boxer.Training is essential for the Boxer. He's so big and strong that he can accidentally hurt people by knocking them over if he doesn't learn to control his actions. The Boxer's temperament plays a role in his trainability. He's happy and excitable, bouncy, and a bit of a mischief-maker. Getting him to take training seriously requires starting early and using firm, fair training methods and positive motivation in the form of praise, play, and food rewards. Be consistent."                android:textSize="20sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:textColor="@color/colorBlue"
+                android:layout_height="wrap_content"
+                android:text="Children and other pets:"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="336dp"
+                android:layout_gravity="center"
+                android:layout_height="wrap_content"
+                android:text="
+Boxers love kids and are great playmates for active older children. They can be too rambunctious for toddlers, however, and can accidentally knock them down in play. Always teach children how to approach and touch dogs, and always supervise any interactions between dogs and young children to prevent any biting or ear or tail pulling on the part of either party. Teach your child never to approach any dog while he's eating or sleeping or to try to take the dog's food away. No dog should ever be left unsupervised with a child. Boxers can get along well with other dogs and cats, especially if they're raised with them.\n
+"
+                android:textSize="20sp" />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
