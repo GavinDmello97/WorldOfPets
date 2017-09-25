@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.imperials.worldofpets.MainActivity">
+
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="84dp"
+        app:srcCompat="@drawable/dog_home"
+        android:onClick="dogpage"
+        android:layout_marginStart="24dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/cat_home"
+        android:onClick="catpage"
+        android:layout_marginEnd="26dp"
+        android:layout_alignTop="@+id/imageButton1"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="39dp"
+        app:srcCompat="@drawable/bird_home"
+        android:onClick="bidpage"
+        android:layout_below="@+id/imageButton1"
+        android:layout_alignStart="@+id/imageButton1" />
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/fish_home"
+        android:onClick="fishpage"
+        android:layout_alignTop="@+id/imageButton3"
+        android:layout_alignStart="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/clickon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="19dp"
+        android:text="Click on the below image links to search for your pet!"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/imageButton1"
+        android:layout_alignEnd="@+id/imageButton2" />
+
+    <TextView
+        android:id="@+id/knowyour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:text="Know Everything about your pet." />
+</RelativeLayout>

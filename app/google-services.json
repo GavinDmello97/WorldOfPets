@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "562600560401",
+    "firebase_url": "https://worldofpets-5eea6.firebaseio.com",
+    "project_id": "worldofpets-5eea6",
+    "storage_bucket": "worldofpets-5eea6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562600560401:android:90474e113093e0d6",
+        "android_client_info": {
+          "package_name": "com.imperials.worldofpets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "562600560401-8rdtkf21pjm96jjdni93tdaqql8sbac9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imperials.worldofpets",
+            "certificate_hash": "d65770807d8114b4d382adb69b7f6bb23c556e9c"
+          }
+        },
+        {
+          "client_id": "562600560401-aikemss16l798r6r0ka7gdqnb1gjketa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDelOeyolpspbyDJNLkZVFWUY9YTYGnrN4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "562600560401-aikemss16l798r6r0ka7gdqnb1gjketa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
