@@ -20,10 +20,8 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:theme="@style/AppTheme.NoActionBar"
-            android:exported="true">
-        </activity>
-
+            android:exported="true"
+            android:theme="@style/AppTheme"></activity>
         <activity
             android:name=".Dogpage"
             android:exported="true" />
@@ -54,7 +52,6 @@
         <activity
             android:name=".Goldenretriver"
             android:exported="true" />
-
     </application>
 
 </manifest>
