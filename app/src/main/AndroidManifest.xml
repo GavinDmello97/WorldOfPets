@@ -21,7 +21,7 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme" />
         <activity
             android:name=".Dogpage"
             android:exported="true" />
@@ -36,6 +36,7 @@
             android:exported="true" />
         <activity
             android:name=".Boxer"
+            android:label="Dog Page"
             android:exported="true" />
         <activity
             android:name=".Germanshepard"
@@ -52,6 +53,9 @@
         <activity
             android:name=".Goldenretriver"
             android:exported="true" />
+        <activity android:name=".About"
+            android:label="Dog Page"
+            android:exported="true"></activity>
     </application>
 
 </manifest>

@@ -11,7 +11,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -58,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void dogpage(View v)
     {
-        Toast.makeText(MainActivity.this,"We are redirecting you to the dog section for selection",Toast.LENGTH_LONG).show();
+    //    Toast.makeText(MainActivity.this,"We are redirecting you to the dog section for selection",Toast.LENGTH_LONG).show();
 
 
                 Intent i=new Intent(MainActivity.this,Dogpage.class);
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void catpage(View v)
     {
-        Toast.makeText(MainActivity.this,"We are redirecting you to the cat section for selection",Toast.LENGTH_SHORT).show();
+     //   Toast.makeText(MainActivity.this,"We are redirecting you to the cat section for selection",Toast.LENGTH_SHORT).show();
 
 
                 Intent i=new Intent(MainActivity.this,Catpage.class);
@@ -78,7 +77,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void birdpage(View v)
     {
-        Toast.makeText(MainActivity.this,"We are redirecting you to the bird section for selection",Toast.LENGTH_SHORT).show();
+      //  Toast.makeText(MainActivity.this,"We are redirecting you to the bird section for selection",Toast.LENGTH_SHORT).show();
 
 
                 Intent i=new Intent(MainActivity.this, Birdpage.class);
@@ -88,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void fishpage(View v)
     {
-        Toast.makeText(MainActivity.this,"We are redirecting you to the fish section for selection",Toast.LENGTH_SHORT).show();
+       // Toast.makeText(MainActivity.this,"We are redirecting you to the fish section for selection",Toast.LENGTH_SHORT).show();
 
 
                 Intent i=new Intent(MainActivity.this,Fishpage.class);
@@ -108,6 +107,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
+        Intent in = new Intent(MainActivity.this,About.class);
+        startActivity(in);
 
         return true;
     }
