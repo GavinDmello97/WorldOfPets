@@ -10,6 +10,7 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
         android:layout_alignParentStart="true">
 
         <LinearLayout
@@ -18,37 +19,48 @@
             android:orientation="vertical">
 
 
-
-
             <RelativeLayout
                 android:layout_width="match_parent"
                 android:layout_height="571dp">
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="38dp"
+                    android:textSize="35sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:text="Welcome to Pet Wiki "
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentStart="true" />
 
                 <ImageButton
                     android:id="@+id/imageButton26"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
 
+                    android:layout_alignParentStart="true"
+                    android:layout_below="@+id/imageButton1"
                     android:layout_marginStart="32dp"
                     android:layout_marginTop="34dp"
                     android:background="@color/colorTrans"
                     android:onClick="birdpage"
-                    app:srcCompat="@drawable/minimalisticsbird"
-                    android:layout_below="@+id/imageButton1"
-                    android:layout_alignParentStart="true" />
+                    app:srcCompat="@drawable/minimalisticsbird" />
 
                 <TextView
                     android:id="@+id/textView2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
+                    android:layout_below="@+id/imageButton26"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="39dp"
                     android:text="Know Everything about your pet."
                     android:textColor="@color/colorAccent"
                     android:textSize="18sp"
-                    android:textStyle="bold"
-                    android:layout_marginTop="39dp"
-                    android:layout_below="@+id/imageButton26"
-                    android:layout_centerHorizontal="true" />
+                    android:textStyle="bold" />
 
                 <ImageButton
                     android:id="@+id/imageButton27"
@@ -66,34 +78,34 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
 
-                    android:layout_marginTop="39dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="99dp"
                     android:gravity="center"
                     android:text="Click on the below image links to search for your pet!"
-                    android:textSize="20sp"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignParentStart="true" />
+                    android:textSize="20sp" />
 
                 <ImageButton
                     android:id="@+id/imageButton1"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:layout_alignStart="@+id/imageButton26"
+                    android:layout_below="@+id/textView1"
                     android:layout_marginTop="18dp"
                     android:background="@color/colorTrans"
                     android:onClick="dogpage"
-                    app:srcCompat="@drawable/minimalisticsdog"
-                    android:layout_below="@+id/textView1"
-                    android:layout_alignStart="@+id/imageButton26" />
+                    app:srcCompat="@drawable/minimalisticsdog" />
 
                 <ImageButton
                     android:id="@+id/imageButton2"
                     android:layout_width="150dp"
                     android:layout_height="150dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignTop="@+id/imageButton1"
+                    android:layout_marginEnd="29dp"
                     android:background="@color/colorTrans"
                     android:onClick="catpage"
-                    app:srcCompat="@drawable/minimalisticscat"
-                    android:layout_alignTop="@+id/imageButton1"
-                    android:layout_alignParentEnd="true"
-                    android:layout_marginEnd="29dp" />
+                    app:srcCompat="@drawable/minimalisticscat" />
 
             </RelativeLayout>
 

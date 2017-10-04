@@ -5,7 +5,7 @@
     <color name="colorAccent">#FF4081</color>
     <color name="colorBlue">#1f26f5</color>
     <color name="colorEntered">#D81B60</color>
-    <color name="colorDisplatEntered">#00e676</color>
+    <color name="colorDisplayEntered">#13b164</color>
     <color name="colorcalculate">#0288d1</color>
     <color name="colorGrey">#e0e0e4</color>
     <color name="colorBlack">#060606</color>

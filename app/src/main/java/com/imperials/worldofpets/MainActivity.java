@@ -1,9 +1,7 @@
 package com.imperials.worldofpets;
 
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -33,27 +31,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public void onBackPressed() {
 
-        AlertDialog.Builder adbuilder = new AlertDialog.Builder(MainActivity.this);
-        adbuilder.setMessage("You are about to exit the application!\nExit?")
-                .setCancelable(false)
-                .setPositiveButton("YES", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        finish();
-                    }
-                })
-                .setNegativeButton("NO", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                })
-                .setTitle("Exit!!");
-        adbuilder.show();
-    }
 
     public void dogpage(View v)
     {

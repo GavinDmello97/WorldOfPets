@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/petworld_logo"
-        android:label="@string/app_name"
+        android:label="Pet World"
         android:roundIcon="@drawable/petworld_logo"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
@@ -21,10 +21,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true"
+            android:label="Pet Wiki"
             android:theme="@style/AppTheme" />
         <activity
             android:name=".Dogpage"
-            android:exported="true" />
+            android:exported="true"
+            android:label="dogpage" />
         <activity
             android:name=".Catpage"
             android:exported="true" />
@@ -36,26 +38,55 @@
             android:exported="true" />
         <activity
             android:name=".Boxer"
-            android:label="Dog Page"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Dog Page" />
         <activity
             android:name=".Germanshepard"
-            android:exported="true" />
+            android:exported="true"
+            android:label="dogpage" />
         <activity
             android:name=".Greatdane"
-            android:exported="true" />
+            android:exported="true"
+            android:label="dogpage" />
         <activity
             android:name=".Labrador"
-            android:exported="true" />
+            android:exported="true"
+            android:label="dogpage" />
         <activity
             android:name=".Syberianhusky"
-            android:exported="true" />
+            android:exported="true"
+            android:label="dogpage" />
         <activity
             android:name=".Goldenretriver"
-            android:exported="true" />
-        <activity android:name=".About"
-            android:label="Dog Page"
-            android:exported="true"></activity>
+            android:exported="true"
+            android:label="dogpage" />
+        <activity
+            android:name=".About"
+            android:exported="true"
+            android:label="About" />
+        <activity
+            android:name=".MainPage"
+            android:label="PetWorld" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="Pet Care"
+            android:exported="true"/>
+        <activity
+            android:name=".MainActivity3"
+            android:exported="true"
+            android:label="Pet Care" />
+        <activity android:name=".petfood"
+            android:exported="true"
+            android:label="petcare"/>
+        <activity android:name=".petplay"
+            android:exported="true"
+            android:label="petcare"/>
+        <activity android:name=".petvaccine"
+            android:exported="true"
+            android:label="petcare"/>
+        <activity android:name=".pettoys"
+            android:exported="true"
+            android:label="petcare"></activity>
     </application>
 
 </manifest>
