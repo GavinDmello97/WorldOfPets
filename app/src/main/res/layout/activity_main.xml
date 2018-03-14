@@ -41,13 +41,12 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
 
-                    android:layout_alignParentStart="true"
-                    android:layout_below="@+id/imageButton1"
                     android:layout_marginStart="32dp"
-                    android:layout_marginTop="34dp"
                     android:background="@color/colorTrans"
                     android:onClick="birdpage"
-                    app:srcCompat="@drawable/minimalisticsbird" />
+                    app:srcCompat="@drawable/minimalisticsbird"
+                    android:layout_below="@+id/imageButton1"
+                    android:layout_alignParentStart="true" />
 
                 <TextView
                     android:id="@+id/textView2"

@@ -8,6 +8,7 @@ import android.widget.ImageView;
 public class petfood extends AppCompatActivity {
 
     ImageView ib;
+    String fname11,fname12;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,8 +21,8 @@ public class petfood extends AppCompatActivity {
 
        Bundle bu = getIntent().getExtras();
 
-       String fname11 = bu.getString("keyname3");
-       String fname12 = bu.getString("keyname4");
+      fname11 = bu.getString("keyname3");
+      fname12 = bu.getString("keyname4");
 
         if(fname11.equals("Dog") ) {
 
@@ -46,8 +47,18 @@ public class petfood extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        Intent in = new Intent(petfood.this,MainActivity3.class);
-        startActivity(in);
+        Intent intent = new Intent(petfood.this,MainActivity3.class);
+        startActivity(intent);
+
+        Intent i = new Intent(petfood.this,MainActivity3.class);
+        Bundle b = new Bundle();
+
+        b.putString("keyname14",fname11);
+        b.putString("keyname15",fname12);
+
+        i.putExtras(b);
+
+        startActivity(i);
     }
 
 }

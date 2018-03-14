@@ -7,16 +7,6 @@
     android:layout_height="match_parent"
     tools:context="com.imperials.worldofpets.MainActivity3">
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/namepet"
-        android:layout_marginTop="180dp"
-        android:layout_alignParentTop="true"
-        android:background="@color/colorTrans"
-        android:layout_centerHorizontal="true" />
-
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
@@ -24,10 +14,10 @@
         android:background="@color/colorTrans"
         app:srcCompat="@drawable/food"
         android:onClick="food"
-        android:layout_marginTop="34dp"
-        android:layout_marginStart="20dp"
+        android:layout_marginTop="56dp"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="31dp" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -36,8 +26,8 @@
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/play"
         android:background="@color/colorTrans"
-        android:layout_marginEnd="19dp"
-        android:layout_above="@+id/textView1"
+        android:layout_marginEnd="32dp"
+        android:layout_alignTop="@+id/imageButton1"
         android:layout_alignParentEnd="true" />
 
     <ImageButton
@@ -46,10 +36,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/vaccine"
-        android:layout_below="@+id/textView1"
         android:onClick="vaccine"
-        android:layout_alignStart="@+id/imageButton1"
-        android:layout_marginTop="67dp" />
+        android:layout_below="@+id/imageButton1"
+        android:layout_alignStart="@+id/imageButton1" />
 
     <ImageButton
         android:id="@+id/imageButton4"
@@ -58,17 +47,8 @@
         android:background="@color/colorTrans"
         app:srcCompat="@drawable/toys"
         android:onClick="toys"
+
         android:layout_alignTop="@+id/imageButton3"
         android:layout_alignStart="@+id/imageButton2" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="30sp"
-        android:textColor="@color/colorWhite"
-        android:layout_below="@+id/imageButton1"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="57dp" />
 </RelativeLayout>

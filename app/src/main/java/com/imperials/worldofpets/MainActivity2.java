@@ -71,6 +71,12 @@ RadioGroup radioGroup;
 
     }
 
+    @Override
+    public void onBackPressed() {
+        Intent in = new Intent(MainActivity2.this,MainPage.class);
+        startActivity(in);
+    }
+
     public void proceed(View v)
     {
         name = ed1.getText().toString();
@@ -92,6 +98,8 @@ RadioGroup radioGroup;
 
 
     }
+
+
 
 
 

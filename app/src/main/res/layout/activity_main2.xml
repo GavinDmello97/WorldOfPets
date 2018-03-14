@@ -95,7 +95,8 @@
         android:text=""
         android:hint="Eg. Shyamu , Bobby , Goku   "
         android:layout_below="@+id/textView17"
-        android:layout_alignStart="@+id/textView17" />
+        android:layout_alignStart="@+id/textView17"
+        android:layout_alignEnd="@+id/button2" />
 
     <Button
         android:id="@+id/button2"

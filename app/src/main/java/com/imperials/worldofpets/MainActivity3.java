@@ -11,6 +11,7 @@ public class MainActivity3 extends AppCompatActivity {
 
     ImageButton ib1,ib2,ib3,ib4;
     TextView tv;
+    String fname1,fname2,fname1a,fname1b;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,11 +25,18 @@ public class MainActivity3 extends AppCompatActivity {
 
         Bundle b = getIntent().getExtras();
 
-        String fname1 = b.getString("keyname1");
-        String fname2 = b.getString("keyname2");
+        fname1 = b.getString("keyname1");
+        fname2 = b.getString("keyname2");
 
 
-        tv.setText(fname2);
+
+
+
+
+
+
+
+
 
 
 
@@ -84,5 +92,7 @@ public class MainActivity3 extends AppCompatActivity {
     public void onBackPressed() {
         Intent intent = new Intent(MainActivity3.this,MainActivity2.class);
         startActivity(intent);
+
+
     }
 }
